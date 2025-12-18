@@ -119,3 +119,58 @@ input[type="color"]{
   width: 75px;
   
 }
+
+.to-do-list{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+
+}
+
+.add-button{
+  background-color: hsl(125, 47%, 54%);
+
+}
+.add-button:hover{
+  background-color: hsl(125, 47%, 54%);
+}
+.delete-button{
+  background-color: hsl(0, 94%, 46%);
+}
+.delete-button:hover{
+  background-color: hsl(0, 96%, 51%);
+}
+.move-button{
+  background-color: hsl(259, 90%, 36%);
+}
+.move-button:hover{
+  background-color: hsl(260, 93%, 29%);
+}
+
+
+
+
+ol{
+  padding: 0;
+}
+
+
+.text{
+  flex: 1;
+}
+.delete-button, .move-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+
+}

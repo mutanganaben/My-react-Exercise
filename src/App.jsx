@@ -10,6 +10,8 @@ import Count from "./Count";
 import ColorPicker from "./ColorPicker";
 import Objects from "./Objects";
 import List1 from "./List1";
+import Component from "./Components";
+import ToDoList from "./ToDoList";
 
 
 function App() {
@@ -30,7 +32,13 @@ function App() {
     <MyComponent /> <br />
     <Count /> <br />
     <Objects/><br />
-    <List1 />
+    <List1 /> <br />
+    <Component />
+    <br />
+    <br />
+    <ToDoList/><br/><br/><br/><br/>
+    <br/><br/><br/><br/><br/><br/>
+    <br/><br/><br/><br/><br/><br/>
     <ColorPicker/>
 
     <Footer />
