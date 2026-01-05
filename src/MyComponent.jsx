@@ -56,11 +56,11 @@ function MyComponent(){
             <button onClick={toggleEmployedStatus}>Toggle Status</button>
             <br />
             <br />
-            <input type={names} onChange={handleNameChange}  />
+            <input type={names} onChange={handleNameChange} />
             <p>Name: {names}</p>
             <br />
 
-            <input type={quantity} onChange={handleQuantityChange} type="number"/>
+            <input type={quantity} onChange={handleQuantityChange} />
             <p>Quantity: {quantity}</p>
             <br />
 
